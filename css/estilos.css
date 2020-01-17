@@ -42,6 +42,7 @@ h1{
   line-height: 1.5;
   letter-spacing: -.2px;
   color: white;
+  margin: 100px 150px 70px 30px;
   /* text-transform: uppercase;
   text-decoration: underline; */
 }
@@ -69,7 +70,7 @@ h1 strong {
   border-top-style: solid; */
   border: 1px solid gray;
   border-radius: 10px;
-  border-top-left-radius: 50px;
+  margin-bottom: 15px;
 }
 
 .project-details {
