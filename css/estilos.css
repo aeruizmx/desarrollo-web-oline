@@ -88,11 +88,34 @@ h1 strong {
 .header {
   background-color: #1b2127;
   color: white;
+  display: flex;
+  height: 90px;  
+  justify-content: space-between;
 }
 
 .header a {
   color: white;
   text-decoration: none;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.hero ol li {
+  height: inherit;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
 }
 
 .portfolio {
@@ -115,4 +138,15 @@ h1 strong {
   margin: 5px;
   border: 1px solid red;
   flex-shrink: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
 }
